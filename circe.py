@@ -17,7 +17,7 @@ def convert_images_in_directory(directory:str, to_jpeg:bool=False, output_dir:st
         OSError: If the provided directory does not exist.
         
     Note:
-        - Supported input image file extensions are ".heic" and ".cr2" (modify as needed).
+        - Supported input image file extensions are ".heic" and ".cr2".
         - The "converted_images" folder within the specified directory will not be processed.
 
     Example:
